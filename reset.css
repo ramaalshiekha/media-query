@@ -1,0 +1,13 @@
+*,html,body{
+ margin: 0;
+ padding: 0;}
+ html{
+    height: 100%;
+ }
+ body{
+    height: 100%;
+background-color: #eee;
+font: 1em oswald;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing;antialisted;
+ }

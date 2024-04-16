@@ -1,0 +1,114 @@
+ *,html,body{
+    margin: 0;
+    padding: 0;}
+    html{
+       height: 100%;
+    }
+    body{
+       height: 100%;
+   background-color: #eee;
+   font: 1em oswald;
+    text-rendering: optimizeLegibility(important);
+   -webkit-font-smoothing;antialisted(important); 
+    }
+   
+ 
+body{
+    background-color: #34495E;
+background-image: url();
+
+}
+.container{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 50px;
+        font-size:3em;
+}
+.col3{
+    color: #27AE60;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    width: 26%; 
+    padding: 2%;
+    margin: 1%;
+    border-radius: 15%;
+    font-size: 16px;
+    border: 2px solid rgba(0, 0, 0 );
+}
+.col3:hover{
+    border: 2px solid white;
+}
+.l1{
+background-color: #34495E;
+}
+.l2{
+    background-color: #E67E22;
+}
+.l3{
+    background-color:#95A5A6;
+}
+img{
+    display: block;
+    text-align: center;
+    border: 2px solid #8ecf0f1;
+    border-radius: 15%;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+.masseage{display: none;}
+ /* media query */
+  
+ @media (max-width: 1400px) {
+    body{background-color: #E74C3C;}
+        h1::after {content:" 1400px";}
+    } 
+ 
+    @media (max-width: 1200px)
+     {  body{background-color : #27AE60;}
+    h1::after {content:" 1200px";} }
+@media (max-width:800px){
+     body{background-color : #34495E;}
+        h1::after {content:" 800px";}
+    
+} 
+ @media (max-width: 767.98px){
+    body{ background-color: #E67E22;}
+        h1::after {content:" 800px"}
+    h1{font-size: 1.5em;}
+}
+@media(max-width: 666.98px){
+    body{ background-color: #27AE60;}
+        h1::after {content:" 600px"}
+        .l1{background-color: #f39c12;}
+        h1{font-size: 1.3em;}
+    .col3{width: 70%;
+    float: none;
+margin: 15px auto;
+padding: 15px;
+padding-top: 30px;
+}
+} 
+
+ @media(max-width: 464.98px){
+    body{ background-color: #eee;}
+        h1::after {content:" 400px"}
+        .col3{width: 90%;}
+        h1{font-size: 0.9em;}
+    
+} 
+
+ @media (max-width: 575.98px){
+    body{ background-color:#27AE60;}
+        h1::after {content:" 300px"}
+        h1{color: white;}
+        h1{font-size: 0.8em;}
+.col3{width: 90%;}    
+} 
+ @media(max-width: 300px)
+{
+.container{display: none;}
+.masseage{display: block;}
+}
